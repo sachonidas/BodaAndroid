@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="36.0"
+    android:viewportHeight="36.0">
+    <group android:name="mesa">
+        <path
+            android:name="mesaPpal"
+            android:fillColor="#a78b87"
+            android:pathData="M0, 0H200, v50, H0 z"/>
+    </group>
+</vector>

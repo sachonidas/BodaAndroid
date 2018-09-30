@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bienvenida"
+            android:icon="@drawable/ic_bienvendia"
+            android:title="Bienvenida" />
+        <item
+            android:id="@+id/el"
+            android:icon="@drawable/novio"
+            android:title="El" />
+        <item
+            android:id="@+id/ella"
+            android:icon="@drawable/novia"
+            android:title="Ella" />
+        <item
+            android:id="@+id/mesas"
+            android:icon="@drawable/ic_mesas"
+            android:title="Mesas" />
+        <item
+            android:id="@+id/alojamiento"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Alojamiento" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Haz tu recuerdo" />
+    </group>
+
+    <item android:title="Avisanos!">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Confirma tu asistencia" />
+        </menu>
+    </item>
+
+</menu>
